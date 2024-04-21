@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import ReplyAllIcon from '@mui/icons-material/ReplyAll';
 import avatar from '../../assets/download.png'
-import logo from '../../assets/1713603006398.png'
+import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom';
 
 
