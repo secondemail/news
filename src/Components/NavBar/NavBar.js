@@ -22,8 +22,8 @@ const NavBar = () => {
 
     useEffect(() => {
         const getData = async () => {
-            let resCat = await axios.get("http://localhost:3000/category");
-            let resSubCat = await axios.get("http://localhost:3000/subCategory");
+            let resCat = await axios.get("kareem28elmohammady.eb2a.com/api/data.json/category");
+            let resSubCat = await axios.get("kareem28elmohammady.eb2a.com/api/data.json/subCategory");
             if (resCat) {
                 setCatData(resCat.data);
             }
