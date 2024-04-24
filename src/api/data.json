@@ -1,0 +1,129 @@
+{
+  "category": [
+    {
+      "id": "db20",
+      "title": "شرق أوسط"
+    },
+    {
+      "id": "2ba0",
+      "title": "صحة"
+    },
+    {
+      "id": "a225",
+      "title": "عالم"
+    },
+    {
+      "id": "b3bb",
+      "title": "رياضة"
+    },
+    {
+      "id": "ae27",
+      "title": "علوم"
+    },
+    {
+      "id": "a647",
+      "title": "منوعات"
+    }
+  ],
+  "subCategory": [
+    {
+      "id": "3a8c",
+      "title": "أخبار مصر",
+      "caption": "كل ما يتعلق بتطورات الأوضاع في مصر في كافة المجالات السياسية والاجتماعية وعلاقتها بدول الجوار وبالمنطقة والعالم",
+      "catId": "db20",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992006/gkhv8ftnj2yefudhv032.png"
+    },
+    {
+      "id": "515f",
+      "title": "أخبار السعودية",
+      "caption": "كل ما يتعلق بأخبار المملكة العربية السعودية، السياسية، والاقتصادية، والرياضية، والثقافية.",
+      "catId": "db20",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992124/tmo0437kiq2tgdzwpneq.png"
+    },
+    {
+      "id": "9f98",
+      "title": "أخبار فلسطين",
+      "caption": "كل ما يخص دولة فلسطين من أخبار في المجالات السياسية والاجتماعية، وعلاقاتها بدول الجوار والعالم.",
+      "catId": "db20",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992569/saauqn4vffl51nj4np7i.jpg"
+    },
+    {
+      "id": "87d2",
+      "title": "الحراك الجزائري",
+      "caption": "صفحة خاصة تتناول أبرز وأهم التقارير والأخبار بشأن التطورات التي أعقبت إعلان الرئيس الجزائري تأجيل الانتخابات الرئاسية والعمل على إرساء أسُس جمهورية جديدة تكون بمثابة إطار للنظام الجزائري الجديد.",
+      "catId": "db20",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992632/qveklfkv4xjf5ncpzziv.png"
+    },
+    {
+      "id": "d337",
+      "title": "غذاء",
+      "caption": "كل مايخص الغذاء",
+      "catId": "2ba0",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992763/hiaesirv8m2hff5rtgdi.jpg"
+    },
+    {
+      "id": "ea53",
+      "title": "أوبئة",
+      "caption": "كل ما يخص الاوبئة",
+      "catId": "2ba0",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992837/ospvliqmrxf7gg8kbwe7.jpg"
+    },
+    {
+      "id": "7e24",
+      "title": "اخر اخبار العالم",
+      "caption": "كل ما يخص العالم",
+      "catId": "a225",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713992911/mp6x89ddx86crk100h0y.jpg"
+    },
+    {
+      "id": "f7d1",
+      "title": "كرة قدم أوروبية",
+      "caption": "كرة قدم أوروبية",
+      "catId": "b3bb",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713993021/oiyklys2smuflfhu0c1a.jpg"
+    },
+    {
+      "id": "adfc",
+      "title": "التنس",
+      "caption": "صفحة خاصة بكل أخبار بطولات التنس العالمية.",
+      "catId": "b3bb",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713993084/otvlah8n3qkbbgxlfwhz.jpg"
+    },
+    {
+      "id": "4108",
+      "title": "كرة قدم عربية",
+      "caption": "كرة قدم عربية",
+      "catId": "b3bb",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713993154/u3r91khmsfoeyzohbcst.jpg"
+    },
+    {
+      "id": "a863",
+      "title": "فضاء",
+      "caption": "فضاء",
+      "catId": "ae27",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713993271/aaxblhhnqnefrcvzsrnq.jpg"
+    },
+    {
+      "id": "fb9c",
+      "title": "هواتف ذكية",
+      "caption": "أهم الأخبار وآخر المستجدات في عالم الهواتف الذكية وملحقاتها",
+      "catId": "ae27",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713993319/c6reb1axqglt4smfyero.jpg"
+    },
+    {
+      "id": "2dea",
+      "title": "أخبار منوعة",
+      "caption": "أخبار منوعة",
+      "catId": "a647",
+      "image": "https://res.cloudinary.com/dd47zs1qk/image/upload/v1713993371/lht16qx5utpofg4hwvu0.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "kareem",
+      "role": "admin"
+    }
+  ],
+  "news": []
+}
