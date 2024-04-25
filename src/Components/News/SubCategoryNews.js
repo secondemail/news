@@ -11,7 +11,7 @@ const SubCategoryNews = ({ subcatdata }) => {
 
   useEffect(() => {
     const getData = async () => {
-      let resNews = await axios.get(`http://localhost:3000/news?subCatId=${subcatdata.id}`);
+      let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/api/news?subCatId=${subcatdata.id}`);
       if (resNews) {
         setNewsData(resNews.data);
       }
