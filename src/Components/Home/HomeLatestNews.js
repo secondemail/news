@@ -11,7 +11,7 @@ const HomeLatestNews = () => {
 
   useEffect(() => {
     const getData = async () => {
-      let resNews = await axios.get(`http://localhost:3000/news`);
+      let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/api//news`);
       if (resNews) {
         setNewsData(resNews.data);
       }
