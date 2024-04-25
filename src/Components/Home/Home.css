@@ -1,0 +1,81 @@
+/* ========== Home Posts Section ========== */
+.post{
+  position: relative;
+}
+.post_image{
+  width: 100%;
+  height: 350px;
+}
+.badge_category{
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+.title_post{
+  position: absolute;
+  bottom: 0px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  color: white;
+}
+.post .badge{
+  background-color: #07284a !important;
+}
+/* ========== Latest News Section ========== */
+.latest_news .card-text{
+  border-right: 6px solid #07284a;
+  padding-right: 7px
+}
+.watch_also span{
+  border-right: 6px solid #07284a;
+  padding-right: 7px;
+  font-size: 13px;
+}
+/* ========== economic ========== */
+.economic{
+  background-color: #3675ba;
+}
+.economic .card{
+  background-color: unset ;
+  color: white;
+  border: unset;
+  position: relative;
+}
+.economic .card-text{
+  border-right: 6px solid white ; 
+  padding-right: 7px; 
+}
+.eco_img{
+  position: absolute;
+  top: 130px;
+}
+/* ========== home_collection ========== */
+.home_collection .mainimg{
+  width: 100%;
+  height: 200px;
+}
+.mainpost{
+  position: relative;
+}
+.mainpost h6{
+  position: absolute;
+  bottom: 10px;
+  padding-right: 13px;
+}
+/* ========== infografic ========== */
+.infografic img{
+  width: 100%;
+  height: 300px;
+}
+.infografic{
+  background-color: #232323;
+}
+.card{
+  transition: .1s all ease-in-out;
+}
+.card:hover{
+  border-bottom: 3px solid red;
+}
+.economic .card:hover{
+  border-bottom: 3px solid #07284a;
+}
