@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
-import ReplyAllIcon from '@mui/icons-material/ReplyAll';
-import avatar from '../../assets/download.png';
 import axios from 'axios';
 import SubCategoryNews from '../../Components/News/SubCategoryNews';
 import { Fade } from 'react-awesome-reveal';
