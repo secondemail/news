@@ -10,7 +10,7 @@ const HomeCategoryNews = ({ catdata }) => {
 
   useEffect(() => {
     const getData = async () => {
-      let resNews = await axios.get(`http://localhost:3000/news?catId=${catdata.id}`);
+      let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/api/news?catId=${catdata.id}`);
       if (resNews) {
         setNewsData(resNews.data);
       }
