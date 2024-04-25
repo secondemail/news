@@ -8,7 +8,7 @@ function HomeCollection() {
 
   useEffect(() => {
     const getData = async () => {
-      let resCat = await axios.get("http://localhost:3000/category");
+      let resCat = await axios.get("https://my-json-server.typicode.com/secondemail/api/category");
       if (resCat) {
         setCatData(resCat.data);
       }
