@@ -13,7 +13,7 @@ const HomePrivate = () => {
 
   useEffect(() => {
     const getData = async () => {
-      let resNews = await axios.get(`http://localhost:3000/news?important=excvlusev`);
+      let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/api/news?important=excvlusev`);
       if (resNews) {
         setNewsData(resNews.data);
       }
