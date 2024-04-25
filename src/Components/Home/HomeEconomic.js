@@ -12,7 +12,7 @@ const HomeEconomic = () => {
 
   useEffect(() => {
     const getData = async () => {
-      let resNews = await axios.get(`http://localhost:3000/news?catName=أخبار الاقتصاد`);
+      let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/api/news?catName=أخبار الاقتصاد`);
       if (resNews) {
         setNewsData(resNews.data);
       }
