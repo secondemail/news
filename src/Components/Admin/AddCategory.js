@@ -23,7 +23,7 @@ const AddCategory = () => {
   const catSubmit = async (values) => {
     setIsPress(true);
     setLoading(true);
-    let res = await axios.post(`http://localhost:3000/category`, { title: values.catName });
+    let res = await axios.post(`https://my-json-server.typicode.com/secondemail/api/category`, { title: values.catName });
     setLoading(false);
     setResData(res)
     values.catName =""
