@@ -13,11 +13,11 @@ const CategoryContainer = () => {
 
   useEffect(() => {
     const getData = async () => {
-      let resSubCat = await axios.get(`http://localhost:3000/subCategory?id=${id}`);
+      let resSubCat = await axios.get(`https://my-json-server.typicode.com/secondemail/api/subCategory?id=${id}`);
       if (resSubCat) {
         setSubCatData(resSubCat.data);
       }
-      let resNews = await axios.get(`http://localhost:3000/news?subCatId=${id}`);
+      let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/api/news?subCatId=${id}`);
       if (resNews) {
         setNewsData(resNews.data);
       }
