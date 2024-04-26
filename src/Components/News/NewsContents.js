@@ -14,6 +14,7 @@ const NewsContents = () => {
   const [newsData, setNewsData] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const getData = async () => {
       let resNews = await axios.get(`https://my-json-server.typicode.com/secondemail/news/news?id=${id}`);
       if (resNews) {
