@@ -62,7 +62,7 @@ const HomeLatestNews = () => {
           newsData.length > 0 ?
           newsData.slice(0,3).reverse().map((i, index) =>
           (
-            <Link to={`/news/${i.id}`}>
+            <Link key={i.id} to={`/news/${i.id}`}>
               <div className='watch_also d-flex'>
                 <img width="120" height="120" src={i.image} />
                 <div style={{paddingRight:"10px"}}>
