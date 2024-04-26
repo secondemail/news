@@ -74,8 +74,5 @@
   transition: .1s all ease-in-out;
 }
 .card:hover{
-  border-bottom: 3px solid red;
-}
-.economic .card:hover{
   border-bottom: 3px solid #07284a;
 }
